@@ -1,5 +1,5 @@
 <x-layout titulo="Cadastrar">
-    <form action="" method="GET">
+    <form action="cadastrar/salvar" method="GET">
         @csrf <!-- Abrir as portas do servidor -->
         <label name="dataCompromisso">Data Compromisso</label>
         <input type="date" name="dataEvento">
@@ -11,6 +11,6 @@
 
         <button type="submit">Salvar</button>
     </form>
-    <a hfer="/"><button>Voltar</button></a>
+    <a href="/"><button>Voltar</button></a>
 
 </x-layout>
